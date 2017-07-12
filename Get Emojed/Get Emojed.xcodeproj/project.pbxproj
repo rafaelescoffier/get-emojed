@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E550ABCBE9025CE9504D4F1 /* Pods_Get_EmojedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5720D3A502BD8B127516A2F /* Pods_Get_EmojedUITests.framework */; };
+		44A62B808CBCF32A2A12F41E /* Pods_Get_EmojedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEFB97D0C0BBFE741AD2AE0 /* Pods_Get_EmojedTests.framework */; };
+		5317DCD61F162B8B00027DF9 /* EmojiTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317DCD51F162B8B00027DF9 /* EmojiTracker.swift */; };
+		533C9EB91F0E778E00CECF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533C9EB81F0E778E00CECF20 /* AppDelegate.swift */; };
+		533C9EBB1F0E778E00CECF20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533C9EBA1F0E778E00CECF20 /* ViewController.swift */; };
+		533C9EBE1F0E778E00CECF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533C9EBC1F0E778E00CECF20 /* Main.storyboard */; };
+		533C9EC01F0E778E00CECF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533C9EBF1F0E778E00CECF20 /* Assets.xcassets */; };
+		533C9EC31F0E778E00CECF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533C9EC11F0E778E00CECF20 /* LaunchScreen.storyboard */; };
+		533C9ECE1F0E778E00CECF20 /* Get_EmojedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533C9ECD1F0E778E00CECF20 /* Get_EmojedTests.swift */; };
+		533C9ED91F0E778E00CECF20 /* Get_EmojedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533C9ED81F0E778E00CECF20 /* Get_EmojedUITests.swift */; };
+		537D01311F15176200BD008E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D01301F15176200BD008E /* SettingsViewController.swift */; };
+		766470E6311BF809570B9A96 /* Pods_Get_Emojed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC101E72AB82C23DA62BB8B3 /* Pods_Get_Emojed.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533C9ECA1F0E778E00CECF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533C9EAD1F0E778E00CECF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533C9EB41F0E778E00CECF20;
+			remoteInfo = "Get Emojed";
+		};
+		533C9ED51F0E778E00CECF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533C9EAD1F0E778E00CECF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533C9EB41F0E778E00CECF20;
+			remoteInfo = "Get Emojed";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FEFB97D0C0BBFE741AD2AE0 /* Pods_Get_EmojedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_EmojedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280BBEA2826CB8DFADB48EEE /* Pods-Get EmojedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get EmojedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get EmojedUITests/Pods-Get EmojedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5317DCD51F162B8B00027DF9 /* EmojiTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiTracker.swift; sourceTree = "<group>"; };
+		531B7B821F155B1D00556738 /* Get Emojed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Get Emojed-Bridging-Header.h"; path = "Glimpse/Get Emojed-Bridging-Header.h"; sourceTree = "<group>"; };
+		533C9EB51F0E778E00CECF20 /* Get Emojed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Emojed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533C9EB81F0E778E00CECF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		533C9EBA1F0E778E00CECF20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		533C9EBD1F0E778E00CECF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533C9EBF1F0E778E00CECF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533C9EC21F0E778E00CECF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		533C9EC41F0E778E00CECF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533C9EC91F0E778E00CECF20 /* Get EmojedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get EmojedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533C9ECD1F0E778E00CECF20 /* Get_EmojedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_EmojedTests.swift; sourceTree = "<group>"; };
+		533C9ECF1F0E778E00CECF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533C9ED41F0E778E00CECF20 /* Get EmojedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get EmojedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533C9ED81F0E778E00CECF20 /* Get_EmojedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_EmojedUITests.swift; sourceTree = "<group>"; };
+		533C9EDA1F0E778E00CECF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537D01301F15176200BD008E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		69163E7C84804BF12E80DBE2 /* Pods-Get Emojed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get Emojed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get Emojed/Pods-Get Emojed.debug.xcconfig"; sourceTree = "<group>"; };
+		8963607D888F91E2E321D2CA /* Pods-Get EmojedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get EmojedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get EmojedUITests/Pods-Get EmojedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC101E72AB82C23DA62BB8B3 /* Pods_Get_Emojed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_Emojed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D155059BB2C729A7B4820795 /* Pods-Get Emojed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get Emojed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get Emojed/Pods-Get Emojed.release.xcconfig"; sourceTree = "<group>"; };
+		D5720D3A502BD8B127516A2F /* Pods_Get_EmojedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Get_EmojedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A6E416EA373B0570CCB677 /* Pods-Get EmojedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get EmojedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Get EmojedTests/Pods-Get EmojedTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF752D7BEA46C6B80D1D323A /* Pods-Get EmojedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Get EmojedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Get EmojedTests/Pods-Get EmojedTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533C9EB21F0E778E00CECF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766470E6311BF809570B9A96 /* Pods_Get_Emojed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9EC61F0E778E00CECF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A62B808CBCF32A2A12F41E /* Pods_Get_EmojedTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9ED11F0E778E00CECF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E550ABCBE9025CE9504D4F1 /* Pods_Get_EmojedUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533C9EAC1F0E778E00CECF20 = {
+			isa = PBXGroup;
+			children = (
+				533C9EB71F0E778E00CECF20 /* Get Emojed */,
+				533C9ECC1F0E778E00CECF20 /* Get EmojedTests */,
+				533C9ED71F0E778E00CECF20 /* Get EmojedUITests */,
+				533C9EB61F0E778E00CECF20 /* Products */,
+				63771328259B442B03B3F4BB /* Pods */,
+				A62AC71C8660EC89F76887A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		533C9EB61F0E778E00CECF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533C9EB51F0E778E00CECF20 /* Get Emojed.app */,
+				533C9EC91F0E778E00CECF20 /* Get EmojedTests.xctest */,
+				533C9ED41F0E778E00CECF20 /* Get EmojedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533C9EB71F0E778E00CECF20 /* Get Emojed */ = {
+			isa = PBXGroup;
+			children = (
+				533C9EB81F0E778E00CECF20 /* AppDelegate.swift */,
+				533C9EBA1F0E778E00CECF20 /* ViewController.swift */,
+				537D01301F15176200BD008E /* SettingsViewController.swift */,
+				5317DCD51F162B8B00027DF9 /* EmojiTracker.swift */,
+				533C9EBC1F0E778E00CECF20 /* Main.storyboard */,
+				531B7B821F155B1D00556738 /* Get Emojed-Bridging-Header.h */,
+				533C9EBF1F0E778E00CECF20 /* Assets.xcassets */,
+				533C9EC11F0E778E00CECF20 /* LaunchScreen.storyboard */,
+				533C9EC41F0E778E00CECF20 /* Info.plist */,
+			);
+			path = "Get Emojed";
+			sourceTree = "<group>";
+		};
+		533C9ECC1F0E778E00CECF20 /* Get EmojedTests */ = {
+			isa = PBXGroup;
+			children = (
+				533C9ECD1F0E778E00CECF20 /* Get_EmojedTests.swift */,
+				533C9ECF1F0E778E00CECF20 /* Info.plist */,
+			);
+			path = "Get EmojedTests";
+			sourceTree = "<group>";
+		};
+		533C9ED71F0E778E00CECF20 /* Get EmojedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				533C9ED81F0E778E00CECF20 /* Get_EmojedUITests.swift */,
+				533C9EDA1F0E778E00CECF20 /* Info.plist */,
+			);
+			path = "Get EmojedUITests";
+			sourceTree = "<group>";
+		};
+		63771328259B442B03B3F4BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69163E7C84804BF12E80DBE2 /* Pods-Get Emojed.debug.xcconfig */,
+				D155059BB2C729A7B4820795 /* Pods-Get Emojed.release.xcconfig */,
+				FF752D7BEA46C6B80D1D323A /* Pods-Get EmojedTests.debug.xcconfig */,
+				E4A6E416EA373B0570CCB677 /* Pods-Get EmojedTests.release.xcconfig */,
+				8963607D888F91E2E321D2CA /* Pods-Get EmojedUITests.debug.xcconfig */,
+				280BBEA2826CB8DFADB48EEE /* Pods-Get EmojedUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A62AC71C8660EC89F76887A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC101E72AB82C23DA62BB8B3 /* Pods_Get_Emojed.framework */,
+				0FEFB97D0C0BBFE741AD2AE0 /* Pods_Get_EmojedTests.framework */,
+				D5720D3A502BD8B127516A2F /* Pods_Get_EmojedUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533C9EB41F0E778E00CECF20 /* Get Emojed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C9EDD1F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get Emojed" */;
+			buildPhases = (
+				855669FD656E5098CEB7032A /* [CP] Check Pods Manifest.lock */,
+				533C9EB11F0E778E00CECF20 /* Sources */,
+				533C9EB21F0E778E00CECF20 /* Frameworks */,
+				533C9EB31F0E778E00CECF20 /* Resources */,
+				FBDC4F3C5FB2F9D0382AFE29 /* [CP] Embed Pods Frameworks */,
+				EDE878205AA5E96DF3F63837 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get Emojed";
+			productName = "Get Emojed";
+			productReference = 533C9EB51F0E778E00CECF20 /* Get Emojed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533C9EC81F0E778E00CECF20 /* Get EmojedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C9EE01F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get EmojedTests" */;
+			buildPhases = (
+				B2EA8006E2F17001B640588A /* [CP] Check Pods Manifest.lock */,
+				533C9EC51F0E778E00CECF20 /* Sources */,
+				533C9EC61F0E778E00CECF20 /* Frameworks */,
+				533C9EC71F0E778E00CECF20 /* Resources */,
+				B2D9822ACBC9566C373F3730 /* [CP] Embed Pods Frameworks */,
+				1FD6F73124F54B0D498ECC20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533C9ECB1F0E778E00CECF20 /* PBXTargetDependency */,
+			);
+			name = "Get EmojedTests";
+			productName = "Get EmojedTests";
+			productReference = 533C9EC91F0E778E00CECF20 /* Get EmojedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533C9ED31F0E778E00CECF20 /* Get EmojedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533C9EE31F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get EmojedUITests" */;
+			buildPhases = (
+				B30E3AC4A4F446700C89ED45 /* [CP] Check Pods Manifest.lock */,
+				533C9ED01F0E778E00CECF20 /* Sources */,
+				533C9ED11F0E778E00CECF20 /* Frameworks */,
+				533C9ED21F0E778E00CECF20 /* Resources */,
+				43EC97A447B1675144412D95 /* [CP] Embed Pods Frameworks */,
+				9D43A4BA28B73D17A8CFA454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533C9ED61F0E778E00CECF20 /* PBXTargetDependency */,
+			);
+			name = "Get EmojedUITests";
+			productName = "Get EmojedUITests";
+			productReference = 533C9ED41F0E778E00CECF20 /* Get EmojedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533C9EAD1F0E778E00CECF20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rafael Escoffier";
+				TargetAttributes = {
+					533C9EB41F0E778E00CECF20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					533C9EC81F0E778E00CECF20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y49U72GMP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 533C9EB41F0E778E00CECF20;
+					};
+					533C9ED31F0E778E00CECF20 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y49U72GMP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 533C9EB41F0E778E00CECF20;
+					};
+				};
+			};
+			buildConfigurationList = 533C9EB01F0E778E00CECF20 /* Build configuration list for PBXProject "Get Emojed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533C9EAC1F0E778E00CECF20;
+			productRefGroup = 533C9EB61F0E778E00CECF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533C9EB41F0E778E00CECF20 /* Get Emojed */,
+				533C9EC81F0E778E00CECF20 /* Get EmojedTests */,
+				533C9ED31F0E778E00CECF20 /* Get EmojedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533C9EB31F0E778E00CECF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533C9EC31F0E778E00CECF20 /* LaunchScreen.storyboard in Resources */,
+				533C9EC01F0E778E00CECF20 /* Assets.xcassets in Resources */,
+				533C9EBE1F0E778E00CECF20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9EC71F0E778E00CECF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9ED21F0E778E00CECF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD6F73124F54B0D498ECC20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get EmojedTests/Pods-Get EmojedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43EC97A447B1675144412D95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get EmojedUITests/Pods-Get EmojedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855669FD656E5098CEB7032A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D43A4BA28B73D17A8CFA454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get EmojedUITests/Pods-Get EmojedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D9822ACBC9566C373F3730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get EmojedTests/Pods-Get EmojedTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2EA8006E2F17001B640588A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B30E3AC4A4F446700C89ED45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE878205AA5E96DF3F63837 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get Emojed/Pods-Get Emojed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDC4F3C5FB2F9D0382AFE29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Get Emojed/Pods-Get Emojed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533C9EB11F0E778E00CECF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533C9EBB1F0E778E00CECF20 /* ViewController.swift in Sources */,
+				533C9EB91F0E778E00CECF20 /* AppDelegate.swift in Sources */,
+				537D01311F15176200BD008E /* SettingsViewController.swift in Sources */,
+				5317DCD61F162B8B00027DF9 /* EmojiTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9EC51F0E778E00CECF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533C9ECE1F0E778E00CECF20 /* Get_EmojedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533C9ED01F0E778E00CECF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533C9ED91F0E778E00CECF20 /* Get_EmojedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533C9ECB1F0E778E00CECF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533C9EB41F0E778E00CECF20 /* Get Emojed */;
+			targetProxy = 533C9ECA1F0E778E00CECF20 /* PBXContainerItemProxy */;
+		};
+		533C9ED61F0E778E00CECF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533C9EB41F0E778E00CECF20 /* Get Emojed */;
+			targetProxy = 533C9ED51F0E778E00CECF20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533C9EBC1F0E778E00CECF20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533C9EBD1F0E778E00CECF20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		533C9EC11F0E778E00CECF20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533C9EC21F0E778E00CECF20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533C9EDB1F0E778E00CECF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533C9EDC1F0E778E00CECF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533C9EDE1F0E778E00CECF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69163E7C84804BF12E80DBE2 /* Pods-Get Emojed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Get Emojed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-Emojed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Get Emojed/Glimpse/Get Emojed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		533C9EDF1F0E778E00CECF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D155059BB2C729A7B4820795 /* Pods-Get Emojed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Get Emojed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-Emojed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Get Emojed/Glimpse/Get Emojed-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		533C9EE11F0E778E00CECF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF752D7BEA46C6B80D1D323A /* Pods-Get EmojedTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y49U72GMP;
+				INFOPLIST_FILE = "Get EmojedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-EmojedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get Emojed.app/Get Emojed";
+			};
+			name = Debug;
+		};
+		533C9EE21F0E778E00CECF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A6E416EA373B0570CCB677 /* Pods-Get EmojedTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y49U72GMP;
+				INFOPLIST_FILE = "Get EmojedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-EmojedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get Emojed.app/Get Emojed";
+			};
+			name = Release;
+		};
+		533C9EE41F0E778E00CECF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8963607D888F91E2E321D2CA /* Pods-Get EmojedUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y49U72GMP;
+				INFOPLIST_FILE = "Get EmojedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-EmojedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Get Emojed";
+			};
+			name = Debug;
+		};
+		533C9EE51F0E778E00CECF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280BBEA2826CB8DFADB48EEE /* Pods-Get EmojedUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y49U72GMP;
+				INFOPLIST_FILE = "Get EmojedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rafaelescoffier.Get-EmojedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Get Emojed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533C9EB01F0E778E00CECF20 /* Build configuration list for PBXProject "Get Emojed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C9EDB1F0E778E00CECF20 /* Debug */,
+				533C9EDC1F0E778E00CECF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C9EDD1F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get Emojed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C9EDE1F0E778E00CECF20 /* Debug */,
+				533C9EDF1F0E778E00CECF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C9EE01F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get EmojedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C9EE11F0E778E00CECF20 /* Debug */,
+				533C9EE21F0E778E00CECF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533C9EE31F0E778E00CECF20 /* Build configuration list for PBXNativeTarget "Get EmojedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533C9EE41F0E778E00CECF20 /* Debug */,
+				533C9EE51F0E778E00CECF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533C9EAD1F0E778E00CECF20 /* Project object */;
+}
